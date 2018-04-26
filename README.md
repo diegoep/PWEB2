@@ -1,6 +1,6 @@
 # Programação para a Web 2
 
-## CST Análise e Desenvolvimento de Sistemas, [IFPB - Campus Cajazeiras](http://ifpb.edu.br/cajazeiras)
+## CST em Análise e Desenvolvimento de Sistemas, [IFPB - Campus Cajazeiras](http://ifpb.edu.br/cajazeiras)
 
 ### Professor
 
