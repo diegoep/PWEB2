@@ -72,7 +72,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
    - Geração de imagem para implantação da aplicação como container
    - Avaliação de qualidade do código
    - Implantação da aplicação em um serviço na nuvem (Heroku, AWS)
-10.	Tópicos avançados e tendências
+10. Tópicos avançados e tendências
    - Novos padrões para requisições REST (GraphQL)
    - Integração com serviços para utilização de algoritmos de Machine Learning
    - Web de Dados, Internet das Coisas e manipulação de dados semânticos
