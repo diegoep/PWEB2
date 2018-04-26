@@ -108,7 +108,7 @@ PESSOA, Diego. Planilha: Desenvolvimento de Aplicações Web avançadas baseadas
 ### Links Complementares sobre Ferramentas, Frameworks e Tecnologias
 
 - [Arquitetura de Microsserviços](http://microservices.io/patterns/microservices.html)
-- [Introdução a Microserviços](https://www.nginx.com/blog/introduction-to-microservices/), this is a seven‑part series of articles
+- [Introdução a Microserviços](https://www.nginx.com/blog/introduction-to-microservices/)
 - Spring IO
   - Spring IO Website: http://www.spring.io
   - Spring Boot: https://projects.spring.io/spring-boot/
