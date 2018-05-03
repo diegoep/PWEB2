@@ -142,3 +142,8 @@ PESSOA, Diego. Planilha: Desenvolvimento de Aplicações Web avançadas baseadas
 - [Cloud Computing: Concepts, Technology & Architecture](http://www.amazon.com/Cloud-Computing-Practice-Dan-Marinescu/dp/0124046274)
 - [Four Layers of TCP/IP model, Comparison and Difference between TCP/IP and OSI models](http://www.omnisecu.com/tcpip/tcpip-model.php)
 - [Travis CI](https://travis-ci.org/), Test and Deploy with Confidence
+
+
+### Referências / Inspirações ###
+- Disciplina Desenvolvimento de Aplicações com Arquitetura Baseada em Microservices do Curso de Sistemas de Informação do Centro de Informática (UFPE) - https://github.com/vinicius3w/if1007-Microservices. Por @vinicius3w.
+
