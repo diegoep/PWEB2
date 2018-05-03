@@ -145,5 +145,5 @@ PESSOA, Diego. Planilha: Desenvolvimento de Aplicações Web avançadas baseadas
 
 
 ### Referências / Inspirações ###
-- Disciplina Desenvolvimento de Aplicações com Arquitetura Baseada em Microservices do Curso de Sistemas de Informação do Centro de Informática (UFPE) - https://github.com/vinicius3w/if1007-Microservices. Por @vinicius3w.
+- Disciplina Desenvolvimento de Aplicações com Arquitetura Baseada em Microservices do Curso de Sistemas de Informação do Centro de Informática (UFPE) - https://github.com/vinicius3w/if1007-Microservices. Por [@vinicius3w](https://github.com/vinicius3w).
 
