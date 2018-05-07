@@ -6,9 +6,9 @@
 
 * Diego Pessoa ([diego.pessoa@ifpb.edu.br](mailto:diego.pessoa@ifpb.edu.br))
 
-### Local / Horários
+### Horários / Local
 
-* Centro de Informática, horários: **Quintas (13:00-15:15)**, Sala07/Lab.Inf.3 e **Sextas (15:30-17:45)**, Sala10A/Lab.Inf.5
+* Horários: **Quintas (13:00-15:15)**, Sala07/Lab.Inf.3 e **Sextas (15:30-17:45)**, Sala10A/Lab.Inf.5
 * Canal de comunicação oficial no Slack: [pweb2-2018-1.slack.com](http://pweb2-2018-1.slack.com)
 
 ### Ementa
@@ -142,3 +142,8 @@ PESSOA, Diego. Planilha: Desenvolvimento de Aplicações Web avançadas baseadas
 - [Cloud Computing: Concepts, Technology & Architecture](http://www.amazon.com/Cloud-Computing-Practice-Dan-Marinescu/dp/0124046274)
 - [Four Layers of TCP/IP model, Comparison and Difference between TCP/IP and OSI models](http://www.omnisecu.com/tcpip/tcpip-model.php)
 - [Travis CI](https://travis-ci.org/), Test and Deploy with Confidence
+
+
+### Referências / Inspirações ###
+- Disciplina Desenvolvimento de Aplicações com Arquitetura Baseada em Microservices do Curso de Sistemas de Informação do Centro de Informática (UFPE) - https://github.com/vinicius3w/if1007-Microservices. Por [@vinicius3w](https://github.com/vinicius3w).
+
