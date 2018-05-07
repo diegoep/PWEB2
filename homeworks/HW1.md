@@ -8,18 +8,18 @@ Configure o perfil no slack provendo uma foto. É importante que seja utilizada 
 
 Slack workspace: https://pweb2-2018-1.slack.com
 
-Se cadastre pelo endereço: https://pweb2-2018-1.slack.com/signup (importante: é **obrigatório** utilizar o seu e-mail _@academico.ifpb.edu.br_)
+Se cadastre pelo endereço: https://pweb2-2018-1.slack.com/signup (importante: é **obrigatório** utilizar o seu e-mail _*** @academico.ifpb.edu.br***_)
 
-Ao entrar no workspace da disciplina, poste alguma mensagem no canal #General. 
+Ao entrar no workspace da disciplina, poste alguma mensagem no canal #General.
 
 ## HW 1.2. Criação de repositório privado no Github (25%)
 
-Se autentique (ou crie uma conta caso não tenha) no [GitHub](https://github.com/). 
+Se autentique (ou crie uma conta caso não tenha) no [GitHub](https://github.com/).
 
-1. Crie um repositório *privado* chamado HW1. 
+1. Crie um repositório *privado* chamado HW1.
 2. Vá até a opção "Settings", "Collaborators and Teams" e adicione apenas o professor ([@diegoep](http://github.com/diegoep)) como colaborador.
 
-Obs.: Para criar repositórios privados no Github gratuitamente, é preciso aderir ao Education Pack (https://education.github.com/pack/). Para isso, é necessário usar o e-mail @academico.ifpb.edu.br. 
+Obs.: Para criar repositórios privados no Github gratuitamente, é preciso aderir ao Education Pack (https://education.github.com/pack/). Para isso, é necessário usar o e-mail @academico.ifpb.edu.br.
 
 ## HW 1.3. Revisão de conceitos básicos do Git (50%)
 
@@ -29,7 +29,7 @@ Faça o clone do seu repositório privado que está no Github para a sua máquin
 
 Para pontos extras (+50%), resolva os quatro primeiros níveis (Introduction Sequence, Ramping Up, Moving Work Around e A Mixed Bag) em: http://pcottle.github.io/learnGitBranching/ e atualize sua branch enviando o print da tela confirmando a realização do exercício.
 
-Prazos de entrega: 
+Prazos de entrega:
 HW 1.1 - 11-mar (sexta), 15h
 HW 1.2 - 11-mar (sexta), 15h
 HW 1.3 - 16-mar (quarta), 17h
