@@ -31,6 +31,6 @@ Faça o clone do seu repositório privado que está no Github para a sua máquin
 Para pontos extras (+50%), resolva os quatro primeiros níveis (Introduction Sequence, Ramping Up, Moving Work Around e A Mixed Bag) em: http://pcottle.github.io/learnGitBranching/ e atualize sua branch enviando o print da tela confirmando a realização do exercício.
 
 Prazos de entrega:
-HW 1.1 - 11-mar (sexta), 15h
-HW 1.2 - 11-mar (sexta), 15h
+HW 1.1 - 11-mar (sexta), 16h
+HW 1.2 - 11-mar (sexta), 16h
 HW 1.3 - 16-mar (quarta), 17h
