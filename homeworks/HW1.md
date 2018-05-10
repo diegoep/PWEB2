@@ -19,7 +19,8 @@ Se autentique (ou crie uma conta caso não tenha) no [GitHub](https://github.com
 1. Crie um repositório *privado* chamado HW1.
 2. Vá até a opção "Settings", "Collaborators and Teams" e adicione apenas o professor ([@diegoep](http://github.com/diegoep)) como colaborador.
 
-Obs.: Para criar repositórios privados no Github gratuitamente, é preciso aderir ao Education Pack (https://education.github.com/pack/). Para isso, é necessário usar o e-mail @academico.ifpb.edu.br.
+
+* Obs.: Para criar repositórios privados no Github gratuitamente, é preciso aderir ao Education Pack (https://education.github.com/pack/). Para isso, é necessário usar o e-mail @academico.ifpb.edu.br.
 
 ## HW 1.3. Revisão de conceitos básicos do Git (50%)
 
