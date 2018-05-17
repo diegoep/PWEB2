@@ -25,6 +25,14 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 - Aplicar e gerenciar os principais frameworks utilizados no desenvolvimento de aplicações Web
 - Apresentar todo o fluxo de desenvolvimento de uma aplicação Web avançada, da concepção, desenvolvimento, configuração, implantação e disponibilização para o usuário final.
 
+### Cronograma de aulas ###
+| # | Aula    | Tópicos                               | Homeworks       |
+|:-:|:--------:|--------------------------------------|:-----------------:|
+| 01 | 10-Mai  | [Apresentação da disciplina e Introdução a Aplicações Web baseadas em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-01.pdf) | [HW1](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW1.md) |
+| 02 | 11-Mai  | [Prática no Desenvolvimento de Aplicação Web utilizando em Spring Boot](https://github.com/diegoep/PWEB2/tree/master/sourcecode/todo) |  |
+| 03 | 17-Mai  | [Decompondo Aplicações em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-02.pdf) |  |
+| 04 | 18-Mai  | [Prática no Desenvolvimento de um Microsserviço para Upload de Arquivos |  |
+
 ### Conteúdo Programático (Tópicos)
 
 1. Nivelamento, revisão e aprofundamento de conceitos fundamentais
@@ -49,8 +57,8 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
    - Comunicação assíncrona e Message Brokers
 5. Consultas envolvendo microsserviços
    - Consumo de dados utilizando o padrão API composition
-   - Adoção do padrão CQRS (Command Query Responsible Segregation) 
-   - Criação de visões para otimização de buscas 
+   - Adoção do padrão CQRS (Command Query Responsible Segregation)
+   - Criação de visões para otimização de buscas
 6. Padrões para consumo como APIs externas
    - Desafios para integração de aplicações externas (Clientes Mobile, Front-end de aplicações Web)
    - O padrão API Gateway
@@ -85,7 +93,7 @@ A metodologia de ensino adotada compreende um misto de aulas tradicionais com at
 
 ### Bibliografia Básica
 
-LUCKOW, Décio; MELO, Alexandre. Programação Java para a Web – 2ª Edição. Novatec, 2015. 
+LUCKOW, Décio; MELO, Alexandre. Programação Java para a Web – 2ª Edição. Novatec, 2015.
 
 DEITEL, Paul; DEITEL, Harvey. Java: como programar. 10ª Edição. São Paulo: Pearson, 2016
 
@@ -146,4 +154,3 @@ PESSOA, Diego. Planilha: Desenvolvimento de Aplicações Web avançadas baseadas
 
 ### Referências / Inspirações ###
 - Disciplina Desenvolvimento de Aplicações com Arquitetura Baseada em Microservices do Curso de Sistemas de Informação do Centro de Informática (UFPE) - https://github.com/vinicius3w/if1007-Microservices. Por [@vinicius3w](https://github.com/vinicius3w).
-
