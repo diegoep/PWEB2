@@ -30,7 +30,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 |:-:|:--------:|--------------------------------------|:-----------------:|
 | 01 | 10-Mai  | [Apresentação da disciplina e Introdução a Aplicações Web baseadas em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-01.pdf) | [HW1](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW1.md) |
 | 02 | 11-Mai  | [Prática no Desenvolvimento de Aplicação Web utilizando em Spring Boot](https://github.com/diegoep/PWEB2/tree/master/sourcecode/todo) |  |
-| 03 | 17-Mai  | [Decompondo Aplicações em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-02.pdf) |  |
+| 03 | 17-Mai  | [Decompondo Aplicações em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-02.pdf) | [HW2](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW2.md) |
 | 04 | 18-Mai  | Prática no Desenvolvimento de um Microsserviço para Upload de Arquivos |  |
 
 ### Conteúdo Programático (Tópicos)
