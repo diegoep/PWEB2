@@ -25,10 +25,8 @@ public class RegistroArquivo {
     @GeneratedValue
     private Long id;
 
-    @Temporal(TemporalType.TIMESTAMP)
     private ZonedDateTime inicio;
 
-    @Temporal(TemporalType.TIMESTAMP)
     private ZonedDateTime ultimaModificacao;
 
     @Enumerated(EnumType.STRING)

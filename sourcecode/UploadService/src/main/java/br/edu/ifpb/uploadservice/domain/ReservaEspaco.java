@@ -26,10 +26,8 @@ public class ReservaEspaco {
     @Enumerated(EnumType.STRING)
     private ReservaEspacoStatus status;
 
-    @Temporal(TemporalType.TIMESTAMP)
     private ZonedDateTime criacao;
 
-    @Temporal(TemporalType.TIMESTAMP)
     private ZonedDateTime expiracao;
 
     @OneToOne
