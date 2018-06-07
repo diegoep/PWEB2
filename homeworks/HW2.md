@@ -12,6 +12,9 @@ Objetivo: aplicar as teorias de modelagem de domínio a partir da decomposição
 
 Para entregar a atividade, envie o link compartilhado do diagrama no Lucid Chart para o professor via mensagem direta no Slack.
 
+Prazo de entrega:
+24-mar (quinta), 11h
+
 ----
 ## Requisitos Funcionais: ##
 ### Serviço de Streaming: ###
@@ -35,6 +38,3 @@ Para entregar a atividade, envie o link compartilhado do diagrama no Lucid Chart
 1) Usuário irá configurar o sistema para receber notificações que serão recebidas a partir de uma ação (ex.: novo upload feito por um usuário ou dentro de um canal)
 2) O sistema deverá suportar vários meios para entrega de notificações (e-mail, sms, mensagem interna)
 3) O sistema deverá suportar um conjunto de mensagens pre-definidas que serão utilizadas para o envio de notificações
-
-Prazo de entrega:
-24-mar (quinta), 11h
