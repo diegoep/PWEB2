@@ -10,6 +10,7 @@ import br.edu.ifpb.uploadservice.repository.ReservaEspacoRepository;
 import br.edu.ifpb.uploadservice.service.erros.NenhumaUnidadeComEspacoDisponivelException;
 import br.edu.ifpb.uploadservice.service.erros.StatusDeReservaInvalido;
 import org.springframework.scheduling.TaskScheduler;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.time.ZonedDateTime;
@@ -26,27 +27,42 @@ public class ReservaEspacoService {
 
     private final TaskScheduler taskScheduler;
 
-    public ReservaEspacoService(ReservaEspacoRepository reservaEspacoRepository, LocalArmazenamentoRepository localArmazenamentoRepository, UploadServiceConfig uploadServiceConfig, TaskScheduler taskScheduler) {
+    private final LocalArmazenamentoService localArmazenamentoService;
+
+    public ReservaEspacoService(ReservaEspacoRepository reservaEspacoRepository, LocalArmazenamentoRepository localArmazenamentoRepository, UploadServiceConfig uploadServiceConfig, TaskScheduler taskScheduler, LocalArmazenamentoService localArmazenamentoService) {
         this.reservaEspacoRepository = reservaEspacoRepository;
         this.localArmazenamentoRepository = localArmazenamentoRepository;
         this.uploadServiceConfig = uploadServiceConfig;
         this.taskScheduler = taskScheduler;
+        this.localArmazenamentoService = localArmazenamentoService;
     }
 
     public ReservaEspaco efetuarReservaDeEspaco(Long tamanhoDoArquivo) throws NenhumaUnidadeComEspacoDisponivelException {
         ReservaEspaco reservaEspaco = new ReservaEspaco();
         reservaEspaco.setBytesReservados(tamanhoDoArquivo);
         reservaEspaco.setCriacao(ZonedDateTime.now());
+        reservaEspaco.setStatus(ReservaEspacoStatus.ATIVA);
         reservaEspaco.setCodigoReserva(this.gerarCodigoReserva());
         reservaEspaco.setExpiracao(calcularDataExpiracao(reservaEspaco.getCriacao()));
         LocalArmazenamento localArmazenamento = definirLocalArmazenamento(tamanhoDoArquivo).
                 orElseThrow(() -> new NenhumaUnidadeComEspacoDisponivelException(String.format("Não há nenhuma unidade disponível para reservar %d bytes", tamanhoDoArquivo)));
         reservaEspacoRepository.save(reservaEspaco);
 
-        taskScheduler.schedule(new RemocaoReservaExpirada(reservaEspaco, this), Date.from(reservaEspaco.getExpiracao().toInstant()));
+        localArmazenamento.setEspacoReservado(localArmazenamento.getEspacoReservado() + reservaEspaco.getBytesReservados());
+        localArmazenamento.setEspacoDisponivel(localArmazenamento.getEspacoDisponivel() - localArmazenamento.getEspacoReservado());
+        localArmazenamentoRepository.save(localArmazenamento);
+
+        taskScheduler.schedule(new RemocaoReservaExpirada(reservaEspaco, localArmazenamento, this, localArmazenamentoService), Date.from(reservaEspaco.getExpiracao().toInstant()));
+
+        this.enviarEstatisticas(reservaEspaco);
 
         return reservaEspaco;
 
+    }
+
+    @Async
+    public void enviarEstatisticas(ReservaEspaco reservaEspaco) {
+        //@TODO enviar para servidor externo
     }
 
     public List<ReservaEspaco> listarReservasEspaco(String status) throws StatusDeReservaInvalido {
@@ -62,6 +78,10 @@ public class ReservaEspacoService {
             reservasEspaco = reservaEspacoRepository.findAll();
         }
         return reservasEspaco;
+    }
+
+    public void atualizarReserva(ReservaEspaco reservaEspaco) {
+        reservaEspacoRepository.save(reservaEspaco);
     }
 
     public void removerReserva(ReservaEspaco reservaEspaco){
