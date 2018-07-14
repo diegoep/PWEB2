@@ -31,7 +31,12 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 01 | 10-Mai  | [Apresentação da disciplina e Introdução a Aplicações Web baseadas em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-01.pdf) | [HW1](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW1.md) |
 | 02 | 11-Mai  | [Prática no Desenvolvimento de Aplicação Web utilizando em Spring Boot](https://github.com/diegoep/PWEB2/tree/master/sourcecode/todo) |  |
 | 03 | 17-Mai  | [Decompondo Aplicações em Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-02.pdf) | [HW2](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW2.md) |
-| 04 | 18-Mai  | [Prática no Desenvolvimento de um Microsserviço para Upload de Arquivos](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
+| 04 | 18-Mai  | [Prática no Desenvolvimento de  Microsserviços (Parte 1)](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
+| 05 | 07-Jun  | [Prática no Desenvolvimento de um Microsserviços (Parte 2)](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
+| 06 | 08-Jun  | [Prática no Desenvolvimento de  Microsserviços (Parte 3)](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
+| 07 | 12-Jul  | [Padrões e conceitos para comunicação entre microsserviços
+](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  [HW3](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW3.md)|
+| 07 | 13-Jul  | [Prática com ferramentas para implementação de padrões de comunicação (Zuul, Hystrix, Eureka e Ribbon)] |  |
 
 ### Conteúdo Programático (Tópicos)
 
