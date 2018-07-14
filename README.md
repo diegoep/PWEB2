@@ -35,7 +35,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 05 | 07-Jun  | [Prática no Desenvolvimento de um Microsserviços (Parte 2)](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
 | 06 | 08-Jun  | [Prática no Desenvolvimento de  Microsserviços (Parte 3)](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) |  |
 | 07 | 12-Jul  | [Padrões e conceitos para comunicação entre microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  [HW3](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW3.md) |
-| 07 | 13-Jul  | [Prática com ferramentas para implementação de padrões de comunicação (Zuul, Hystrix, Eureka e Ribbon)] |  |
+| 07 | 13-Jul  | Prática com ferramentas para implementação de padrões de comunicação:  [Hystrix](https://github.com/spring-guides/gs-circuit-breaker), [Eureka](https://github.com/spring-guides/gs-service-registration-and-discovery/tree/master/initial), [Zuul](https://github.com/spring-guides/gs-routing-and-filtering) e [Ribbon](https://github.com/spring-guides/gs-client-side-load-balancing) |  |
 
 ### Conteúdo Programático (Tópicos)
 
