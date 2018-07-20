@@ -37,7 +37,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 07 | 12-Jul  | [Padrões e conceitos para comunicação entre microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  [HW3](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW3.md) |
 | 08 | 13-Jul  | Prática com ferramentas para implementação de padrões de comunicação:  [Hystrix](https://github.com/spring-guides/gs-circuit-breaker), [Eureka](https://github.com/spring-guides/gs-service-registration-and-discovery/tree/master/initial), [Zuul](https://github.com/spring-guides/gs-routing-and-filtering) e [Ribbon](https://github.com/spring-guides/gs-client-side-load-balancing) |  |
 | 09 | 19-Jul  | [Padrões para comunicação assíncrona](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-04.pdf) |  |
-| 10 | 20-Jul  | [Introdução ao Apache] Kafka(https://www.slideshare.net/jhols1/kafka-atlmeetuppublicv2) e [Exemplo Prático](https://github.com/diegoep/PWEB2/tree/master/sourcecode/kafka-exemplo)  |  |
+| 10 | 20-Jul  | [Introdução ao Apache Kafka](https://www.slideshare.net/jhols1/kafka-atlmeetuppublicv2) e [Exemplo Prático](https://github.com/diegoep/PWEB2/tree/master/sourcecode/kafka-exemplo)  |  |
 
 ### Conteúdo Programático (Tópicos)
 
