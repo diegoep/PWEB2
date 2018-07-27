@@ -38,6 +38,8 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 08 | 13-Jul  | Prática com ferramentas para implementação de padrões de comunicação:  [Hystrix](https://github.com/spring-guides/gs-circuit-breaker), [Eureka](https://github.com/spring-guides/gs-service-registration-and-discovery/tree/master/initial), [Zuul](https://github.com/spring-guides/gs-routing-and-filtering) e [Ribbon](https://github.com/spring-guides/gs-client-side-load-balancing) |  |
 | 09 | 19-Jul  | [Padrões para comunicação assíncrona](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-04.pdf) |  |
 | 10 | 20-Jul  | [Introdução ao Apache Kafka](https://www.slideshare.net/jhols1/kafka-atlmeetuppublicv2) e [Exemplo Prático](https://github.com/diegoep/PWEB2/tree/master/sourcecode/kafka-exemplo)  |  |
+| 11 | 27-Jul  | [Gerenciando Transações Distribuídas com Sagas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  |
+| 12 | 28-Jul  | [Prática com o framework Eventuate para comunicação assíncrona e transações distribuídas](https://github.com/eventuate-tram/eventuate-tram-core-examples-basic) | [HW4](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW4.md) |
 
 ### Conteúdo Programático (Tópicos)
 
