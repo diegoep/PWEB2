@@ -1,21 +1,17 @@
-# Homework 4
+# Homework 3
 
-Objetivo: utilize como base o [Upload Service](https://github.com/diegoep/PWEB2/blob/master/sourcecode/UploadService/) criado anteriormente para utilizar um mecanismo de comunicação assíncrona a partir da chamada feita por outros serviço, seguindo os seguintes passos:
+Objetivo: criar aplicação web baseada em microsserviços integrando tecnologias que implementam padrões para a comunicação síncrona distribuída.
 
-* Crie um serviço simples que gerencie alguma entidade uma entidade qualquer e que contenha uma referência para um arquivo e um status.
-* Crie os respectivos repositórios/serviços para gerenciar essa entidade.
-* No método de criação da entidade, inicialize o status como "RESERVA_PENDENTE"
-* Após a criação da entidade localmente, dispare um comando assíncrono para criar uma reserva de espaço no Upload Service (Use o endpoint definido no [ReservaEspacoController](https://github.com/diegoep/PWEB2/blob/master/sourcecode/UploadService/src/main/java/br/edu/ifpb/uploadservice/web/ReservaEspacoController.java)).
-* Simule e trate os dois casos possíveis de resposta do Upload Service:
-   1. Se houver espaço em disco, o Upload Service irá criar a reserva e retornar sucesso - neste caso, o seu serviço deverá finalizar a transação e atualizar a entidade para o estado "RESERVA_REALIZADA"
-   2. Se não houver espaço em disco, o Upload Service irá retornar BAD_REQUEST - neste caso, o seu serviço deverá finalizar a transação e atualizar o estado da entidade para "RESERVA_REJEITADA"
+O modelo de dados da aplicação Web será de livre escolha, mas deverá ser implementada pelo menos uma entidade com respectivos repositório e serviço. Os seguintes microsserviços (implementados como aplicações Spring Boot) devem fazer parte da aplicação:
 
-* Sugestão de implementação: Eventuate com envio de comandos assíncronos e canal de resposta. Exemplo: https://github.com/eventuate-tram/eventuate-tram-core-examples-basic
+1. Microserviço provendo o acesso à lógica de negócio seguindo o modelo de dados escolhido e podendo ser rodado em múltiplas instâncias;
 
-* Obs.: para esta etapa, não é requerido o uso de sagas.
+2. Gateway contendo Circuit Breaker Hystrix com os fallbacks para chamadas para o microsserviço, Zuul Server para roteamento e Ribbon Client para balanceamento nas chamadas realizadas pelo Zuul para os microsserviços);
+
+3. Registry (rodando um Eureka Server) para fornecer para o Gateway as instâncias disponíveis do microsserviço.
 
 ## Entrega:
 Para entregar a atividade, crie um repositório privado no GitHub e compartilhe o acesso só com o professor.
 
 Prazo de entrega:
-02-ago (quinta), 11:00
+19-jul (quinta), 11h
