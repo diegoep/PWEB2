@@ -18,10 +18,18 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+	<repositories>
+		<repository>
+			<id>jcenter</id>
+			<url>http://jcenter.bintray.com</url>
+		</repository>
+	</repositories>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<eventuateTramVersion>0.9.0.RELEASE</eventuateTramVersion>
 	</properties>
 
 	<dependencies>
@@ -74,7 +82,31 @@
 			<version>1.3.3</version>
 		</dependency>
 
-
+		<!--<dependency>-->
+			<!--<groupId>io.eventuate.tram.core</groupId>-->
+			<!--<artifactId>eventuate-tram-events</artifactId>-->
+			<!--<version>${eventuateTramVersion}</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>io.eventuate.tram.core</groupId>-->
+			<!--<artifactId>eventuate-tram-messaging</artifactId>-->
+			<!--<version>${eventuateTramVersion}</version>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-commands</artifactId>
+			<version>${eventuateTramVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.eventuate.tram.core</groupId>
+			<artifactId>eventuate-tram-jdbc-kafka</artifactId>
+			<version>${eventuateTramVersion}</version>
+		</dependency>
+		<!--<dependency>-->
+			<!--<groupId>io.eventuate.local.java</groupId>-->
+			<!--<artifactId>eventuate-local-java-embedded-cdc-autoconfigure</artifactId>-->
+			<!--<version>${eventuateTramVersion}</version>-->
+		<!--</dependency>-->
     </dependencies>
 
 	<build>
