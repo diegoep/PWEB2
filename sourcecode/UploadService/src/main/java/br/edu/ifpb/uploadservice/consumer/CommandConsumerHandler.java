@@ -8,6 +8,8 @@ import io.eventuate.tram.commands.consumer.CommandHandlersBuilder;
 import io.eventuate.tram.commands.consumer.CommandMessage;
 import io.eventuate.tram.commands.consumer.PathVariables;
 import io.eventuate.tram.messaging.common.Message;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import static io.eventuate.tram.commands.consumer.CommandHandlerReplyBuilder.withFailure;
@@ -17,6 +19,8 @@ public class CommandConsumerHandler {
 
     @Autowired
     private ReservaEspacoService reservaEspacoService;
+
+    private Logger log = LoggerFactory.getLogger(CommandConsumerHandler.class);
 
     private String commandChannel;
 
@@ -33,6 +37,7 @@ public class CommandConsumerHandler {
 
     public Message efetuaReservaEspaco(CommandMessage<EfetuaReservaEspacoCommand> cm, PathVariables pv) {
         try {
+            log.info("Solicitacao de reserva de espaço recebida para {} bytes",cm.getCommand().getTamanhoArquivo());
             reservaEspacoService.efetuarReservaDeEspaco(cm.getCommand().getTamanhoArquivo());
         } catch (NenhumaUnidadeComEspacoDisponivelException e) {
             return withFailure();

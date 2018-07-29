@@ -7,15 +7,14 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CommandConsumerConfiguration {
 
-
     @Bean
     public CommandConsumerHandler commandConsumerHandler(CommandConsumerParameters parameters){
         return new CommandConsumerHandler(parameters.getCommandChannel());
     }
 
     @Bean
-    public CommandDispatcher commandDispatcher(CommandConsumerHandler handler) {
-        return new CommandDispatcher("customerServiceCommandDispatcher", handler.getCommandHandlers());
+    public CommandDispatcher commandDispatcher(CommandConsumerParameters parameters, CommandConsumerHandler handler) {
+        return new CommandDispatcher(parameters.getDispatcherId(), handler.getCommandHandlers());
     }
 
     @Bean

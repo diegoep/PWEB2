@@ -96,11 +96,13 @@
 			<groupId>io.eventuate.tram.core</groupId>
 			<artifactId>eventuate-tram-commands</artifactId>
 			<version>${eventuateTramVersion}</version>
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>io.eventuate.tram.core</groupId>
 			<artifactId>eventuate-tram-jdbc-kafka</artifactId>
 			<version>${eventuateTramVersion}</version>
+			<scope>compile</scope>
 		</dependency>
 		<!--<dependency>-->
 			<!--<groupId>io.eventuate.local.java</groupId>-->

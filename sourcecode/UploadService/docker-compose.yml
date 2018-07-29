@@ -29,6 +29,14 @@ services:
       - MYSQL_USER=mysqluser
       - MYSQL_PASSWORD=mysqlpw
 
+  postgres:
+    image: postgres:9.6.8
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: uploadservice
+      POSTGRES_PASSWORD: uploadservice
+
   cdcservice:
     image: eventuateio/eventuate-tram-cdc-mysql-service:0.9.0.RELEASE
     ports:
