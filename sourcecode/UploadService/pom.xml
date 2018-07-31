@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>todo</name>
+	<name>UploadService</name>
 	<description>Microservice Upload Service</description>
 
 	<parent>
