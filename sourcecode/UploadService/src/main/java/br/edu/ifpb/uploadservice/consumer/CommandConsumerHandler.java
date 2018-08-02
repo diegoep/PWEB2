@@ -1,6 +1,6 @@
 package br.edu.ifpb.uploadservice.consumer;
 
-import br.edu.ifpb.uploadservice.consumer.command.EfetuaReservaEspacoCommand;
+import br.edu.ifpb.producer.commandproducer.command.EfetuaReservaEspacoCommand;
 import br.edu.ifpb.uploadservice.service.ReservaEspacoService;
 import br.edu.ifpb.uploadservice.service.erros.NenhumaUnidadeComEspacoDisponivelException;
 import io.eventuate.tram.commands.consumer.CommandHandlers;
