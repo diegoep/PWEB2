@@ -4,6 +4,9 @@ import io.eventuate.tram.commands.common.Command;
 
 public class EfetuaReservaEspacoCommand implements Command {
 
+    public EfetuaReservaEspacoCommand() {
+    }
+
     public EfetuaReservaEspacoCommand(Long conteudoId, Long tamanhoArquivo) {
         this.conteudoId = conteudoId;
         this.tamanhoArquivo = tamanhoArquivo;
