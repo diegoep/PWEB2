@@ -40,9 +40,9 @@ public class CommandConsumerHandler {
             log.info("Solicitacao de reserva de espaço recebida para {} bytes",cm.getCommand().getTamanhoArquivo());
             reservaEspacoService.efetuarReservaDeEspaco(cm.getCommand().getTamanhoArquivo());
         } catch (NenhumaUnidadeComEspacoDisponivelException e) {
-            return withFailure();
+            return withFailure(cm);
         }
-        return withSuccess();
+        return withSuccess(cm);
     }
 
 

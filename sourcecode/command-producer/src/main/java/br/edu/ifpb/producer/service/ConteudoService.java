@@ -5,6 +5,7 @@ import br.edu.ifpb.producer.commandproducer.command.EfetuaReservaEspacoCommand;
 import br.edu.ifpb.producer.domain.Conteudo;
 import br.edu.ifpb.producer.repository.ConteudoRepository;
 import io.eventuate.tram.commands.producer.CommandProducer;
+import io.eventuate.tram.messaging.producer.MessageBuilder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
