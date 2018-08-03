@@ -85,6 +85,11 @@
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>io.eventuate.tram.core</groupId>
+            <artifactId>eventuate-tram-events</artifactId>
+            <version>${eventuateTramVersion}</version>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>io.eventuate.local.java</groupId>-->
             <!--<artifactId>eventuate-local-java-embedded-cdc-autoconfigure</artifactId>-->
