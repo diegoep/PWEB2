@@ -16,10 +16,9 @@ public class CommandProducerConfiguration {
         return new CommandConsumerParameters();
     }
 
-
     @Bean
     public ChannelMapping channelMapping(CommandConsumerParameters parameters) {
-        return new DefaultChannelMapping(Collections.singletonMap("UploadServiceAggregate", parameters.getCommandChannel()));
+        return new DefaultChannelMapping(Collections.singletonMap("Reply-To", parameters.getReplyChannel()));
     }
 
 }

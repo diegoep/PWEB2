@@ -16,6 +16,16 @@ public class EfetuaReservaEspacoCommand implements Command {
 
     private Long tamanhoArquivo;
 
+    private String codigoReserva;
+
+    public String getCodigoReserva() {
+        return codigoReserva;
+    }
+
+    public void setCodigoReserva(String codigoReserva) {
+        this.codigoReserva = codigoReserva;
+    }
+
     public Long getTamanhoArquivo() {
         return tamanhoArquivo;
     }
