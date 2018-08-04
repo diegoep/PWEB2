@@ -17,4 +17,4 @@ Reflexão:
 Para entregar a atividade, crie um repositório privado no GitHub e compartilhe o acesso só com o professor.
 
 Prazo de entrega:
-15-ago (quarta), 23:59
+08-ago (quarta), 23:59
