@@ -40,6 +40,9 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 10 | 20-Jul  | [Introdução ao Apache Kafka](https://www.slideshare.net/jhols1/kafka-atlmeetuppublicv2) e [Exemplo Prático](https://github.com/diegoep/PWEB2/tree/master/sourcecode/kafka-exemplo)  |  |
 | 11 | 27-Jul  | [Gerenciando Transações Distribuídas com Sagas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  |
 | 12 | 28-Jul  | [Prática com o framework Eventuate para comunicação assíncrona e transações distribuídas](https://github.com/eventuate-tram/eventuate-tram-core-examples-basic) | [HW4](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW4.md) |
+| 13 | 02-Ago  | [Prática com troca de comandos assíncronos usando o eventuate tram ](https://github.com/diegoep/PWEB2/tree/master/sourcecode/command-producer) |  |
+| 14 | 03-Ago  | [Prática com recebimento de resposta de comandos e geração/tratamento de eventos com eventuate tram](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) | [HW5](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW5.md) |
+
 
 ### Conteúdo Programático (Tópicos)
 
