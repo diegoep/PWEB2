@@ -1,12 +1,14 @@
 package br.edu.ifpb.producer.service;
 
 import br.edu.ifpb.producer.commandproducer.CommandConsumerParameters;
-import br.edu.ifpb.producer.commandproducer.command.EfetuaReservaEspacoCommand;
 import br.edu.ifpb.producer.domain.Conteudo;
-import br.edu.ifpb.producer.events.ConteudoInicializado;
+import br.edu.ifpb.producer.events.ConteudoCriado;
 import br.edu.ifpb.producer.repository.ConteudoRepository;
 import io.eventuate.tram.commands.producer.CommandProducer;
 import io.eventuate.tram.events.publisher.DomainEventPublisher;
+import io.eventuate.tram.messaging.common.Message;
+import io.eventuate.tram.messaging.consumer.MessageConsumer;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -23,23 +25,33 @@ public class ConteudoService {
 
     private final CommandConsumerParameters consumerParameters;
 
-    private final DomainEventPublisher domainEventPublisher;
+    @Autowired
+    private DomainEventPublisher domainEventPublisher;
 
-    public ConteudoService(CommandProducer commandProducer, ConteudoRepository conteudoRepository, CommandConsumerParameters consumerParameters, DomainEventPublisher domainEventPublisher) {
+    @Autowired
+    private MessageConsumer messageConsumer;
+
+    public ConteudoService(CommandProducer commandProducer, ConteudoRepository conteudoRepository, CommandConsumerParameters consumerParameters) {
         this.commandProducer = commandProducer;
         this.conteudoRepository = conteudoRepository;
         this.consumerParameters = consumerParameters;
-        this.domainEventPublisher = domainEventPublisher;
     }
 
     @Transactional
     public Conteudo criarConteudo(Conteudo conteudo) {
-
+        conteudo.setStatus(Conteudo.ConteudoStatus.PENDENTE);
         conteudoRepository.save(conteudo);
-        ConteudoInicializado conteudoInicializado = new ConteudoInicializado(conteudo.getTamanho());
-        domainEventPublisher.publish(consumerParameters.getAggregateType(), consumerParameters.getAggregateType()+conteudo.getId(), Collections.singletonList(conteudoInicializado));
+        ConteudoCriado conteudoCriado = new ConteudoCriado(conteudo.getId(), conteudo.getTamanho());
+        domainEventPublisher.publish(consumerParameters.getAggregateType(), consumerParameters.getAggregateType()+"-"+conteudo.getId(), Collections.singletonList(conteudoCriado));
 
         return conteudo;
+    }
+
+    @Transactional
+    public void concluirReserva(Message message) {
+        Conteudo conteudo = recuperarConteudo(Long.parseLong(message.getHeader("conteudo-id").get())).get();
+        conteudo.setCodigoReserva(message.getHeader("conteudo-codigoreserva").get());
+        atualizarConteudo(conteudo);
     }
 
     @Transactional

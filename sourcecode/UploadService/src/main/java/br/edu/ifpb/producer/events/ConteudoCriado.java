@@ -2,14 +2,17 @@ package br.edu.ifpb.producer.events;
 
 import io.eventuate.tram.events.common.DomainEvent;
 
-public class ConteudoInicializado implements DomainEvent {
+public class ConteudoCriado implements DomainEvent {
 
-    public ConteudoInicializado() {
+    public ConteudoCriado() {
     }
 
-    public ConteudoInicializado(long tamanho) {
+    public ConteudoCriado(Long id, long tamanho) {
+        this.id = id;
         this.tamanho = tamanho;
     }
+
+    private Long id;
 
     private long tamanho;
 
@@ -19,5 +22,13 @@ public class ConteudoInicializado implements DomainEvent {
 
     public void setTamanho(long tamanho) {
         this.tamanho = tamanho;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

@@ -4,31 +4,8 @@ public class CommandConsumerParameters {
   private String commandChannel = "uploadServiceCommandChannel";
   private String replyChannel = "uploadServiceReplyChannel";
   private String dispatcherId = "uploadDispatcher1";
-  private String aggregateType = "conteudo";
-
-  public String getCommandChannel() {
-    return commandChannel;
-  }
-
-  public void setCommandChannel(String commandChannel) {
-    this.commandChannel = commandChannel;
-  }
-
-  public String getReplyChannel() {
-    return replyChannel;
-  }
-
-  public void setReplyChannel(String replyChannel) {
-    this.replyChannel = replyChannel;
-  }
-
-  public String getDispatcherId() {
-    return dispatcherId;
-  }
-
-  public void setDispatcherId(String dispatcherId) {
-    this.dispatcherId = dispatcherId;
-  }
+  private String aggregateType = "Conteudo";
+  private String subscriberId = "commandproducer";
 
   public String getAggregateType() {
     return aggregateType;
@@ -37,4 +14,13 @@ public class CommandConsumerParameters {
   public void setAggregateType(String aggregateType) {
     this.aggregateType = aggregateType;
   }
+
+  public String getSubscriberId() {
+    return subscriberId;
+  }
+
+  public void setSubscriberId(String subscriberId) {
+    this.subscriberId = subscriberId;
+  }
+
 }
