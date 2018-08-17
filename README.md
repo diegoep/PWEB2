@@ -44,7 +44,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 14 | 03-Ago  | [Prática com recebimento de resposta de comandos e geração/tratamento de eventos com eventuate tram](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) | [HW5](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW5.md) |
 | 15 | 09-Ago  | [Projetando Lógica de Negócio numa Arquitetura de Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-05.pdf) | |
 | 16 | 10-Ago  | Prática na definição da lógica de negócios do projeto da disciplina seguindo Domain Driven Design (DDD) | |
-| 17 | 16-Ago  | Desenvolvendo lógica de negócios com Event-Sourcing(https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-05.pdf) | |
+| 17 | 16-Ago  | [Desenvolvendo lógica de negócios com Event-Sourcing](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-06.pdf) | |
 | 18 | 17-Ago  | [Exemplo de aplicação baseada em Event-Sourcing](https://github.com/eventuate-examples/eventuate-examples-java-spring-todo-list) e [Exemplo de implementação de saga](https://github.com/eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders)
 
 ### Conteúdo Programático (Tópicos)
