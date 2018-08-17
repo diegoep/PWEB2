@@ -38,13 +38,13 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 08 | 13-Jul  | Prática com ferramentas para implementação de padrões de comunicação:  [Hystrix](https://github.com/spring-guides/gs-circuit-breaker), [Eureka](https://github.com/spring-guides/gs-service-registration-and-discovery/tree/master/initial), [Zuul](https://github.com/spring-guides/gs-routing-and-filtering) e [Ribbon](https://github.com/spring-guides/gs-client-side-load-balancing) |  |
 | 09 | 19-Jul  | [Padrões para comunicação assíncrona](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-04.pdf) |  |
 | 10 | 20-Jul  | [Introdução ao Apache Kafka](https://www.slideshare.net/jhols1/kafka-atlmeetuppublicv2) e [Exemplo Prático](https://github.com/diegoep/PWEB2/tree/master/sourcecode/kafka-exemplo)  |  |
-| 11 | 27-Jul  | [Gerenciando Transações Distribuídas com Sagas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-03.pdf) |  |
+| 11 | 27-Jul  | [Gerenciando Transações Distribuídas com Sagas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-05.pdf) |  |
 | 12 | 28-Jul  | [Prática com o framework Eventuate para comunicação assíncrona e transações distribuídas](https://github.com/eventuate-tram/eventuate-tram-core-examples-basic) | [HW4](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW4.md) |
 | 13 | 02-Ago  | [Prática com troca de comandos assíncronos usando o eventuate tram ](https://github.com/diegoep/PWEB2/tree/master/sourcecode/command-producer) |  |
 | 14 | 03-Ago  | [Prática com recebimento de resposta de comandos e geração/tratamento de eventos com eventuate tram](https://github.com/diegoep/PWEB2/tree/master/sourcecode/UploadService) | [HW5](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW5.md) |
-| 15 | 09-Ago  | [Projetando Lógica de Negócio numa Arquitetura de Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-05.pdf) | |
+| 15 | 09-Ago  | [Projetando Lógica de Negócio numa Arquitetura de Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-06.pdf) | |
 | 16 | 10-Ago  | Prática na definição da lógica de negócios do projeto da disciplina seguindo Domain Driven Design (DDD) | |
-| 17 | 16-Ago  | [Desenvolvendo lógica de negócios com Event-Sourcing](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-06.pdf) | |
+| 17 | 16-Ago  | [Desenvolvendo lógica de negócios com Event-Sourcing](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-07.pdf) | |
 | 18 | 17-Ago  | [Exemplo de aplicação baseada em Event-Sourcing](https://github.com/eventuate-examples/eventuate-examples-java-spring-todo-list) e [Exemplo de implementação de saga](https://github.com/eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders)
 
 ### Conteúdo Programático (Tópicos)
