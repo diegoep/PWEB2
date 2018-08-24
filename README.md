@@ -46,8 +46,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 16 | 10-Ago  | Prática na definição da lógica de negócios do projeto da disciplina seguindo Domain Driven Design (DDD) | |
 | 17 | 16-Ago  | [Desenvolvendo lógica de negócios com Event-Sourcing](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-07.pdf) | |
 | 18 | 17-Ago  | [Exemplo de aplicação baseada em Event-Sourcing](https://github.com/eventuate-examples/eventuate-examples-java-spring-todo-list) e [Exemplo de implementação de saga](https://github.com/eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders)
-| 19 | 23-Ago  | [implementando consultas numa
-arquitetura de microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-08.pdf) | |
+| 19 | 23-Ago  | [implementando consultas numa arquitetura de microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-08.pdf) | |
 
 ### Conteúdo Programático (Tópicos)
 
