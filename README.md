@@ -47,6 +47,8 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 17 | 16-Ago  | [Desenvolvendo lógica de negócios com Event-Sourcing](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-07.pdf) | |
 | 18 | 17-Ago  | [Exemplo de aplicação baseada em Event-Sourcing](https://github.com/eventuate-examples/eventuate-examples-java-spring-todo-list) e [Exemplo de implementação de saga](https://github.com/eventuate-tram/eventuate-tram-sagas-examples-customers-and-orders)
 | 19 | 23-Ago  | [implementando consultas numa arquitetura de microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-08.pdf) | |
+| 20 | 30-Ago  | [Prática na construção de CQRS com Spring Cloud Stream](https://github.com/diegoep/PWEB2/tree/master/sourcecode/cqrs-spring-cloud) | |
+| 21 | 31-Ago  | [Padrões para Consumo de API externas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-09.pdf) | |
 
 ### Conteúdo Programático (Tópicos)
 
