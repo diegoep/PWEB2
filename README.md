@@ -49,6 +49,8 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 19 | 23-Ago  | [implementando consultas numa arquitetura de microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-08.pdf) | |
 | 20 | 30-Ago  | [Prática na construção de CQRS com Spring Cloud Stream](https://github.com/diegoep/PWEB2/tree/master/sourcecode/cqrs-spring-cloud) | |
 | 21 | 31-Ago  | [Padrões para Consumo de API externas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-09.pdf) | |
+| 22 | 06-Set  | [Desenvolvendo serviços prontos para produção](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-10.pdf) | |
+
 
 ### Conteúdo Programático (Tópicos)
 
