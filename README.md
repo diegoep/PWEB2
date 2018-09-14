@@ -50,7 +50,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 20 | 30-Ago  | [Prática na construção de CQRS com Spring Cloud Stream](https://github.com/diegoep/PWEB2/tree/master/sourcecode/cqrs-spring-cloud) | |
 | 21 | 31-Ago  | [Padrões para Consumo de API externas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-09.pdf) | |
 | 22 | 06-Set  | [Desenvolvendo serviços prontos para produção](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-10.pdf) | |
-| 23 | 14-Set | Prática com Desenvolvimento de serviços para produção e ferramentas RAD - Criando aplicação com o [JHipster](http://jhipster.tech) | [HW6](https://github.com/diegoep/PWEB2/blob/master/homeworks/HW6.md) |
+| 23 | 14-Set | Prática com Desenvolvimento de serviços para produção e ferramentas RAD - Criando aplicação com o [JHipster](http://jhipster.tech)
 
 
 ### Conteúdo Programático (Tópicos)
