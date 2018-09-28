@@ -51,7 +51,8 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 21 | 31-Ago  | [Padrões para Consumo de API externas](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-09.pdf) | |
 | 22 | 06-Set  | [Desenvolvendo serviços prontos para produção](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-10.pdf) | |
 | 23 | 14-Set | Prática com Desenvolvimento de serviços para produção e ferramentas RAD - Criando aplicação com o [JHipster](http://jhipster.tech)
-
+| 24 | 27-Set | [Implantando microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-11.pdf) | |
+| 25 | 28-Set | Prática com implantação de microsserviços como containers e Kubernetes | |
 
 ### Conteúdo Programático (Tópicos)
 
