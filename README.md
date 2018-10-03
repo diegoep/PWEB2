@@ -53,6 +53,7 @@ Exposição prática a conceitos, ferramentas e princípios do desenvolvimento d
 | 23 | 14-Set | Prática com Desenvolvimento de serviços para produção e ferramentas RAD - Criando aplicação com o [JHipster](http://jhipster.tech)
 | 24 | 27-Set | [Implantando microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-11.pdf) | |
 | 25 | 28-Set | Prática com implantação de microsserviços como containers e Kubernetes | |
+| 26 | 04-Out | [Testando Microsserviços](https://github.com/diegoep/PWEB2/blob/master/lectures/pweb2-12.pdf) | |
 
 ### Conteúdo Programático (Tópicos)
 
